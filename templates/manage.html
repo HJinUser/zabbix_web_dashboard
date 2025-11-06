@@ -144,8 +144,7 @@
             "디스크 사용률": {"warn": 80, "crit": 95},
             "네트워크 송수신 바이트수": {"warn": 10000, "crit": 20000},
             "패킷 손실율": {"warn": 10, "crit": 30},
-            "부팅 후 경과시간": {"warn": 86400, "crit": 172800}, 
-            "중요 포트 오픈 여부": {"warn": 0, "crit": 0}
+            "부팅 후 경과시간": {"warn": 86400, "crit": 172800}
         } %}
         {% set resources = default_thresholds.keys() %}
         {% set selected = session.selected_resources or [] %}
